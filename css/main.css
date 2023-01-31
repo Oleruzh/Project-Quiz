@@ -1,0 +1,1600 @@
+/* line 1, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_base\.less}line{font-family:\000031}}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* line 5, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_base\.less}line{font-family:\000035}}
+html {
+  height: 100%;
+}
+/* line 9, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_base\.less}line{font-family:\000039}}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #84c586;
+  background: radial-gradient(circle, #84c586 0%, #2a8a2c 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'PT Sans', sans-serif;
+}
+/* line 22, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_base\.less}line{font-family:\0000322}}
+.wrapper {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/* line 1, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\000031}}
+.plate {
+  width: 1170px;
+  height: 545px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 1px 52.25px 2.75px rgba(33, 62, 33, 0.5);
+          box-shadow: 0px 1px 52.25px 2.75px rgba(33, 62, 33, 0.5);
+}
+/* line 13, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000313}}
+.cover-content-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 21, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000321}}
+.cover-content {
+  width: 570px;
+  text-align: center;
+  color: #777777;
+  margin-top: -50px;
+}
+/* line 28, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000328}}
+.title-img {
+  margin-bottom: 25px;
+}
+/* line 32, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000332}}
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f1d34;
+  margin: 0 0 20px;
+}
+/* line 39, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000339}}
+.title-2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f1d34;
+  margin: 0 0 20px;
+}
+/* line 46, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000346}}
+.cover-content p {
+  color: #777777;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+/* line 52, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000352}}
+.plate-content {
+  padding: 25px 30px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/* line 57, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000357}}
+.title-main {
+  color: #0f1d34;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0px 0 20px;
+}
+/* line 64, blocks\_plate.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate\.less}line{font-family:\0000364}}
+.hidden {
+  display: none;
+}
+/* line 1, blocks\_button.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_button\.less}line{font-family:\000031}}
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #09ac0c;
+  height: 44px;
+  padding: 9px 30px 0;
+  border: 0;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 19, blocks\_button.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_button\.less}line{font-family:\0000319}}
+.button:hover {
+  opacity: 0.8;
+}
+/* line 24, blocks\_button.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_button\.less}line{font-family:\0000324}}
+.button--huge {
+  font-size: 24px;
+  width: 100%;
+  height: 56px;
+  padding: 0px 30px 0;
+  margin-bottom: 20px;
+}
+/* line 32, blocks\_button.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_button\.less}line{font-family:\0000332}}
+.button--back {
+  background-color: #d4d4d4;
+}
+/* line 1, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\000031}}
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 12px;
+}
+/* line 7, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\000037}}
+.label {
+  margin-bottom: 10px;
+  text-align: left;
+}
+/* line 12, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000312}}
+.input-email {
+  position: relative;
+  height: 58px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  padding: 20px 35px 20px 70px;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  background-image: url("../img/icons/envelope.svg");
+  background-repeat: no-repeat;
+  background-position: 21px 18px;
+  background-size: 28px 23px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 33, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000333}}
+.input-email:focus,
+.input-email:active {
+  outline: none;
+  border-color: #5baa5c;
+}
+/* line 40, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000340}}
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 44, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000344}}
+.checkbox__real {
+  display: none;
+}
+/* line 48, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000348}}
+.checkbox__fake {
+  position: relative;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  -webkit-box-shadow: 0 1px 7px rgba(9, 172, 12, 0.5);
+          box-shadow: 0 1px 7px rgba(9, 172, 12, 0.5);
+  border-radius: 3px;
+  background-color: #09ac0c;
+}
+/* line 58, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000358}}
+.checkbox__fake:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: -16px;
+  width: 10px;
+  height: 10px;
+  background-image: url("../img/icons/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* line 75, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000375}}
+.checkbox__real:checked + .checkbox__fake::before {
+  top: 3px;
+}
+/* line 80, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000380}}
+.checkbox__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+}
+/* line 86, blocks\_forms.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_forms\.less}line{font-family:\0000386}}
+.hidden {
+  display: none;
+}
+/* line 1, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\000031}}
+.bonus-cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+/* line 7, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\000037}}
+.bonus-card {
+  border-radius: 4px;
+  background-color: #5baa5c;
+  -webkit-box-shadow: 0px 1px 30px 0px rgba(9, 172, 12, 0.5);
+          box-shadow: 0px 1px 30px 0px rgba(9, 172, 12, 0.5);
+  width: 260px;
+  height: 90px;
+  margin-right: 30px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+/* line 23, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\0000323}}
+.bonus-card:last-child {
+  margin-right: 0;
+}
+/* line 29, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\0000329}}
+.bonus-card__img {
+  margin-right: 20px;
+  max-height: 60px;
+}
+/* line 34, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\0000334}}
+.bonus-card__title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+}
+/* line 41, blocks\_bonus-cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_bonus-cards\.less}line{font-family:\0000341}}
+.hidden {
+  display: none;
+}
+/* line 1, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\000031}}
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 6, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\000036}}
+.progress__label {
+  color: #0f1d34;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* line 11, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\0000311}}
+.progress__label strong {
+  color: #09ac0c;
+  font-weight: 700;
+}
+/* line 17, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\0000317}}
+.progress__line-wrapper {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #d4d4d4;
+}
+/* line 24, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\0000324}}
+.progress__line-bar {
+  height: 6px;
+  -webkit-box-shadow: 0 1px 10px 1px rgba(9, 172, 12, 0.5);
+          box-shadow: 0 1px 10px 1px rgba(9, 172, 12, 0.5);
+  border-radius: 3px;
+  background-color: #09ac0c;
+  background-image: -webkit-gradient(linear, right top, left top, from(#19bf1c), to(#398e3a));
+  background-image: linear-gradient(to left, #19bf1c 0%, #398e3a 100%);
+}
+/* line 32, blocks\_progress.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_progress\.less}line{font-family:\0000332}}
+.hidden {
+  display: none;
+}
+/* line 1, blocks\_plate-header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-header\.less}line{font-family:\000031}}
+.plate-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding: 0px 30px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+/* line 9, blocks\_plate-header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-header\.less}line{font-family:\000039}}
+.plate-header__icon {
+  margin-right: 20px;
+  margin-top: 4px;
+}
+/* line 13, blocks\_plate-header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-header\.less}line{font-family:\0000313}}
+.plate-header__icon img {
+  max-width: 28px;
+}
+/* line 18, blocks\_plate-header.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-header\.less}line{font-family:\0000318}}
+.plate-header__title {
+  color: #568c57;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+}
+/* line 1, blocks\_plate-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-footer\.less}line{font-family:\000031}}
+.plate-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 85px;
+  padding: 20px 30px;
+  border-top: 1px solid #e7e7e7;
+}
+/* line 9, blocks\_plate-footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_plate-footer\.less}line{font-family:\000039}}
+.plate-footer__progress {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 35px;
+}
+/* line 1, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\000031}}
+.radio-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 6, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\000036}}
+.radio-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  height: 58px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/* line 18, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000318}}
+.radio-block--active {
+  border: 2px solid #09ac0c;
+}
+/* line 22, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000322}}
+.radio-block__real {
+  display: none;
+}
+/* line 26, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000326}}
+.radio-block__fake {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin-right: 14px;
+  border-radius: 12px;
+  background-color: #d4d4d4;
+  border: 2px solid #ffffff;
+}
+/* line 36, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000336}}
+.radio-block__real:checked + .radio-block__fake {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 52px 3px rgba(33, 62, 33, 0.5);
+          box-shadow: 0 1px 52px 3px rgba(33, 62, 33, 0.5);
+  border: #09ac0c solid 2px;
+}
+/* line 44, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000344}}
+.radio-block__real:checked + .radio-block__fake::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #09ac0c;
+  border-radius: 12px;
+}
+/* line 57, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000357}}
+.radio-block__real:checked ~ .radio-block__text {
+  color: #09ac0c;
+}
+/* line 61, blocks\_radio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_radio\.less}line{font-family:\0000361}}
+.radio-block__text {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* line 1, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\000031}}
+.checkbox-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 6, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\000036}}
+.checkbox-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  height: 58px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/* line 18, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000318}}
+.checkbox-block--active {
+  border: 2px solid #09ac0c;
+}
+/* line 22, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000322}}
+.checkbox-block__real {
+  display: none;
+}
+/* line 26, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000326}}
+.checkbox-block__fake {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  background-color: #d4d4d4;
+  margin-right: 15px;
+}
+/* line 36, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000336}}
+.checkbox-block__real:checked + .checkbox-block__fake {
+  -webkit-box-shadow: 0 1px 7px rgba(9, 172, 12, 0.5);
+          box-shadow: 0 1px 7px rgba(9, 172, 12, 0.5);
+  background-color: #09ac0c;
+}
+/* line 40, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000340}}
+.checkbox-block__real:checked + .checkbox-block__fake:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/icons/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* line 60, blocks\_checkbox.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_checkbox\.less}line{font-family:\0000360}}
+.hidden {
+  display: none;
+}
+/* line 1, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\000031}}
+.cards-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 5, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\000035}}
+.card-block {
+  position: relative;
+  width: 210px;
+  height: 260px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+/* line 16, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000316}}
+.card-block__radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* line 21, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000321}}
+.card-block__radio-real {
+  display: none;
+}
+/* line 25, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000325}}
+.card-block__radio-fake {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+/* line 31, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000331}}
+.card-block__radio-real:checked + .card-block__radio-fake {
+  display: block;
+  border-radius: 18px;
+  width: 34px;
+  height: 34px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 52px 0px rgba(33, 62, 33, 0.5);
+          box-shadow: 0 1px 52px 0px rgba(33, 62, 33, 0.5);
+  border: #09ac0c solid 2px;
+}
+/* line 44, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000344}}
+.card-block__radio-real:checked + .card-block__radio-fake::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #09ac0c;
+  border-radius: 12px;
+}
+/* line 57, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000357}}
+.card-block__img {
+  overflow: hidden;
+  height: 180px;
+}
+/* line 62, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000362}}
+.card-block__text {
+  height: 80px;
+  padding: 0px 20px;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 72, blocks\_cards.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/blocks\/_cards\.less}line{font-family:\0000372}}
+.hidden {
+  display: none;
+}
+/* line 1, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000031}}
+.mt-0 {
+  margin-top: 0;
+}
+/* line 2, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000032}}
+.mt-5 {
+  margin-top: 5px;
+}
+/* line 3, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000033}}
+.mt-10 {
+  margin-top: 10px;
+}
+/* line 4, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000034}}
+.mt-15 {
+  margin-top: 15px;
+}
+/* line 5, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000035}}
+.mt-20 {
+  margin-top: 20px;
+}
+/* line 6, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000036}}
+.mt-25 {
+  margin-top: 25px;
+}
+/* line 7, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000037}}
+.mt-30 {
+  margin-top: 30px !important;
+}
+/* line 8, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000038}}
+.mt-35 {
+  margin-top: 35px;
+}
+/* line 9, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\000039}}
+.mt-40 {
+  margin-top: 40px;
+}
+/* line 10, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000310}}
+.mt-45 {
+  margin-top: 45px;
+}
+/* line 11, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000311}}
+.mt-50 {
+  margin-top: 50px;
+}
+/* line 12, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000312}}
+.mt-55 {
+  margin-top: 55px;
+}
+/* line 13, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000313}}
+.mt-60 {
+  margin-top: 60px;
+}
+/* line 14, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000314}}
+.mt-65 {
+  margin-top: 65px;
+}
+/* line 15, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000315}}
+.mt-70 {
+  margin-top: 70px;
+}
+/* line 16, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000316}}
+.mt-75 {
+  margin-top: 75px;
+}
+/* line 17, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000317}}
+.mt-80 {
+  margin-top: 80px;
+}
+/* line 18, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000318}}
+.mt-85 {
+  margin-top: 85px;
+}
+/* line 19, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000319}}
+.mt-90 {
+  margin-top: 90px;
+}
+/* line 20, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000320}}
+.mt-95 {
+  margin-top: 95px;
+}
+/* line 21, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000321}}
+.mt-100 {
+  margin-top: 100px;
+}
+/* line 23, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000323}}
+.mb-0 {
+  margin-bottom: 0;
+}
+/* line 24, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000324}}
+.mb-5 {
+  margin-bottom: 5px;
+}
+/* line 25, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000325}}
+.mb-10 {
+  margin-bottom: 10px;
+}
+/* line 26, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000326}}
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+/* line 27, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000327}}
+.mb-20 {
+  margin-bottom: 20px;
+}
+/* line 28, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000328}}
+.mb-25 {
+  margin-bottom: 25px;
+}
+/* line 29, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000329}}
+.mb-30 {
+  margin-bottom: 30px;
+}
+/* line 30, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000330}}
+.mb-35 {
+  margin-bottom: 35px;
+}
+/* line 31, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000331}}
+.mb-40 {
+  margin-bottom: 40px;
+}
+/* line 32, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000332}}
+.mb-45 {
+  margin-bottom: 45px;
+}
+/* line 33, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000333}}
+.mb-50 {
+  margin-bottom: 50px;
+}
+/* line 34, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000334}}
+.mb-55 {
+  margin-bottom: 55px;
+}
+/* line 35, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000335}}
+.mb-60 {
+  margin-bottom: 60px;
+}
+/* line 36, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000336}}
+.mb-65 {
+  margin-bottom: 65px;
+}
+/* line 37, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000337}}
+.mb-70 {
+  margin-bottom: 70px;
+}
+/* line 38, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000338}}
+.mb-75 {
+  margin-bottom: 75px;
+}
+/* line 39, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000339}}
+.mb-80 {
+  margin-bottom: 80px;
+}
+/* line 40, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000340}}
+.mb-85 {
+  margin-bottom: 85px;
+}
+/* line 41, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000341}}
+.mb-90 {
+  margin-bottom: 90px;
+}
+/* line 42, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000342}}
+.mb-95 {
+  margin-bottom: 95px;
+}
+/* line 43, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000343}}
+.mb-100 {
+  margin-bottom: 100px;
+}
+/* line 44, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000344}}
+.mb-120 {
+  margin-bottom: 120px;
+}
+/* line 46, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000346}}
+.ml-0 {
+  margin-left: 0;
+}
+/* line 47, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000347}}
+.ml-5 {
+  margin-left: 5px;
+}
+/* line 48, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000348}}
+.ml-10 {
+  margin-left: 10px;
+}
+/* line 49, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000349}}
+.ml-15 {
+  margin-left: 15px;
+}
+/* line 50, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000350}}
+.ml-20 {
+  margin-left: 20px;
+}
+/* line 51, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000351}}
+.ml-25 {
+  margin-left: 25px;
+}
+/* line 52, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000352}}
+.ml-30 {
+  margin-left: 30px;
+}
+/* line 53, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000353}}
+.ml-35 {
+  margin-left: 35px;
+}
+/* line 54, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000354}}
+.ml-40 {
+  margin-left: 40px;
+}
+/* line 55, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000355}}
+.ml-45 {
+  margin-left: 45px;
+}
+/* line 56, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000356}}
+.ml-50 {
+  margin-left: 50px;
+}
+/* line 57, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000357}}
+.ml-55 {
+  margin-left: 55px;
+}
+/* line 58, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000358}}
+.ml-60 {
+  margin-left: 60px;
+}
+/* line 59, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000359}}
+.ml-65 {
+  margin-left: 65px;
+}
+/* line 60, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000360}}
+.ml-70 {
+  margin-left: 70px;
+}
+/* line 61, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000361}}
+.ml-75 {
+  margin-left: 75px;
+}
+/* line 62, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000362}}
+.ml-80 {
+  margin-left: 80px;
+}
+/* line 63, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000363}}
+.ml-85 {
+  margin-left: 85px;
+}
+/* line 64, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000364}}
+.ml-90 {
+  margin-left: 90px;
+}
+/* line 65, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000365}}
+.ml-95 {
+  margin-left: 95px;
+}
+/* line 66, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000366}}
+.ml-100 {
+  margin-left: 100px;
+}
+/* line 68, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000368}}
+.mr-0 {
+  margin-right: 0;
+}
+/* line 69, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000369}}
+.mr-5 {
+  margin-right: 5px;
+}
+/* line 70, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000370}}
+.mr-10 {
+  margin-right: 10px;
+}
+/* line 71, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000371}}
+.mr-15 {
+  margin-right: 15px;
+}
+/* line 72, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000372}}
+.mr-20 {
+  margin-right: 20px;
+}
+/* line 73, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000373}}
+.mr-25 {
+  margin-right: 25px;
+}
+/* line 74, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000374}}
+.mr-30 {
+  margin-right: 30px;
+}
+/* line 75, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000375}}
+.mr-35 {
+  margin-right: 35px;
+}
+/* line 76, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000376}}
+.mr-40 {
+  margin-right: 40px;
+}
+/* line 77, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000377}}
+.mr-45 {
+  margin-right: 45px;
+}
+/* line 78, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000378}}
+.mr-50 {
+  margin-right: 50px;
+}
+/* line 79, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000379}}
+.mr-55 {
+  margin-right: 55px;
+}
+/* line 80, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000380}}
+.mr-60 {
+  margin-right: 60px;
+}
+/* line 81, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000381}}
+.mr-65 {
+  margin-right: 65px;
+}
+/* line 82, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000382}}
+.mr-70 {
+  margin-right: 70px;
+}
+/* line 83, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000383}}
+.mr-75 {
+  margin-right: 75px;
+}
+/* line 84, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000384}}
+.mr-80 {
+  margin-right: 80px;
+}
+/* line 85, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000385}}
+.mr-85 {
+  margin-right: 85px;
+}
+/* line 86, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000386}}
+.mr-90 {
+  margin-right: 90px;
+}
+/* line 87, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000387}}
+.mr-95 {
+  margin-right: 95px;
+}
+/* line 88, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000388}}
+.mr-100 {
+  margin-right: 100px;
+}
+/* line 89, utils\_margins.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_margins\.less}line{font-family:\0000389}}
+.no-margins {
+  margin: 0;
+}
+/* line 1, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000031}}
+.pt-0 {
+  padding-top: 0;
+}
+/* line 2, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000032}}
+.pt-5 {
+  padding-top: 5px;
+}
+/* line 3, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000033}}
+.pt-10 {
+  padding-top: 10px;
+}
+/* line 4, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000034}}
+.pt-15 {
+  padding-top: 15px;
+}
+/* line 5, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000035}}
+.pt-20 {
+  padding-top: 20px;
+}
+/* line 6, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000036}}
+.pt-25 {
+  padding-top: 25px;
+}
+/* line 7, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000037}}
+.pt-30 {
+  padding-top: 30px;
+}
+/* line 8, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000038}}
+.pt-35 {
+  padding-top: 35px;
+}
+/* line 9, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\000039}}
+.pt-40 {
+  padding-top: 40px;
+}
+/* line 10, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000310}}
+.pt-45 {
+  padding-top: 45px;
+}
+/* line 11, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000311}}
+.pt-50 {
+  padding-top: 50px;
+}
+/* line 12, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000312}}
+.pt-55 {
+  padding-top: 55px;
+}
+/* line 13, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000313}}
+.pt-60 {
+  padding-top: 60px;
+}
+/* line 14, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000314}}
+.pt-65 {
+  padding-top: 65px;
+}
+/* line 15, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000315}}
+.pt-70 {
+  padding-top: 70px;
+}
+/* line 16, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000316}}
+.pt-75 {
+  padding-top: 75px;
+}
+/* line 17, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000317}}
+.pt-80 {
+  padding-top: 80px;
+}
+/* line 18, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000318}}
+.pt-85 {
+  padding-top: 85px;
+}
+/* line 19, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000319}}
+.pt-90 {
+  padding-top: 90px;
+}
+/* line 20, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000320}}
+.pt-95 {
+  padding-top: 95px;
+}
+/* line 21, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000321}}
+.pt-100 {
+  padding-top: 100px;
+}
+/* line 23, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000323}}
+.pb-0 {
+  padding-bottom: 0;
+}
+/* line 24, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000324}}
+.pb-5 {
+  padding-bottom: 5px;
+}
+/* line 25, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000325}}
+.pb-10 {
+  padding-bottom: 10px;
+}
+/* line 26, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000326}}
+.pb-15 {
+  padding-bottom: 15px;
+}
+/* line 27, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000327}}
+.pb-20 {
+  padding-bottom: 20px;
+}
+/* line 28, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000328}}
+.pb-25 {
+  padding-bottom: 25px;
+}
+/* line 29, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000329}}
+.pb-30 {
+  padding-bottom: 30px;
+}
+/* line 30, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000330}}
+.pb-35 {
+  padding-bottom: 35px;
+}
+/* line 31, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000331}}
+.pb-40 {
+  padding-bottom: 40px;
+}
+/* line 32, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000332}}
+.pb-45 {
+  padding-bottom: 45px;
+}
+/* line 33, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000333}}
+.pb-50 {
+  padding-bottom: 50px;
+}
+/* line 34, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000334}}
+.pb-55 {
+  padding-bottom: 55px;
+}
+/* line 35, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000335}}
+.pb-60 {
+  padding-bottom: 60px;
+}
+/* line 36, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000336}}
+.pb-65 {
+  padding-bottom: 65px;
+}
+/* line 37, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000337}}
+.pb-70 {
+  padding-bottom: 70px;
+}
+/* line 38, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000338}}
+.pb-75 {
+  padding-bottom: 75px;
+}
+/* line 39, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000339}}
+.pb-80 {
+  padding-bottom: 80px;
+}
+/* line 40, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000340}}
+.pb-85 {
+  padding-bottom: 85px;
+}
+/* line 41, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000341}}
+.pb-90 {
+  padding-bottom: 90px;
+}
+/* line 42, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000342}}
+.pb-95 {
+  padding-bottom: 95px;
+}
+/* line 44, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000344}}
+.pb-100 {
+  padding-bottom: 100px;
+}
+/* line 46, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000346}}
+.pb-100 {
+  padding-bottom: 100px;
+}
+/* line 48, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000348}}
+.pb-120 {
+  padding-bottom: 120px;
+}
+/* line 50, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000350}}
+.pl-0 {
+  padding-left: 0;
+}
+/* line 51, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000351}}
+.pl-5 {
+  padding-left: 5px;
+}
+/* line 52, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000352}}
+.pl-10 {
+  padding-left: 10px;
+}
+/* line 53, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000353}}
+.pl-15 {
+  padding-left: 15px;
+}
+/* line 54, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000354}}
+.pl-20 {
+  padding-left: 20px;
+}
+/* line 55, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000355}}
+.pl-25 {
+  padding-left: 25px;
+}
+/* line 56, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000356}}
+.pl-30 {
+  padding-left: 30px;
+}
+/* line 57, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000357}}
+.pl-35 {
+  padding-left: 35px;
+}
+/* line 58, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000358}}
+.pl-40 {
+  padding-left: 40px;
+}
+/* line 59, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000359}}
+.pl-45 {
+  padding-left: 45px;
+}
+/* line 60, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000360}}
+.pl-50 {
+  padding-left: 50px;
+}
+/* line 61, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000361}}
+.pl-55 {
+  padding-left: 55px;
+}
+/* line 62, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000362}}
+.pl-60 {
+  padding-left: 60px;
+}
+/* line 63, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000363}}
+.pl-65 {
+  padding-left: 65px;
+}
+/* line 64, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000364}}
+.pl-70 {
+  padding-left: 70px;
+}
+/* line 65, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000365}}
+.pl-75 {
+  padding-left: 75px;
+}
+/* line 66, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000366}}
+.pl-80 {
+  padding-left: 80px;
+}
+/* line 67, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000367}}
+.pl-85 {
+  padding-left: 85px;
+}
+/* line 68, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000368}}
+.pl-90 {
+  padding-left: 90px;
+}
+/* line 69, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000369}}
+.pl-95 {
+  padding-left: 95px;
+}
+/* line 70, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000370}}
+.pl-100 {
+  padding-left: 100px;
+}
+/* line 72, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000372}}
+.pr-0 {
+  padding-right: 0;
+}
+/* line 73, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000373}}
+.pr-5 {
+  padding-right: 5px;
+}
+/* line 74, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000374}}
+.pr-10 {
+  padding-right: 10px;
+}
+/* line 75, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000375}}
+.pr-15 {
+  padding-right: 15px;
+}
+/* line 76, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000376}}
+.pr-20 {
+  padding-right: 20px;
+}
+/* line 77, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000377}}
+.pr-25 {
+  padding-right: 25px;
+}
+/* line 78, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000378}}
+.pr-30 {
+  padding-right: 30px;
+}
+/* line 79, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000379}}
+.pr-35 {
+  padding-right: 35px;
+}
+/* line 80, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000380}}
+.pr-40 {
+  padding-right: 40px;
+}
+/* line 81, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000381}}
+.pr-45 {
+  padding-right: 45px;
+}
+/* line 82, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000382}}
+.pr-50 {
+  padding-right: 50px;
+}
+/* line 83, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000383}}
+.pr-55 {
+  padding-right: 55px;
+}
+/* line 84, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000384}}
+.pr-60 {
+  padding-right: 60px;
+}
+/* line 85, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000385}}
+.pr-65 {
+  padding-right: 65px;
+}
+/* line 86, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000386}}
+.pr-70 {
+  padding-right: 70px;
+}
+/* line 87, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000387}}
+.pr-75 {
+  padding-right: 75px;
+}
+/* line 88, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000388}}
+.pr-80 {
+  padding-right: 80px;
+}
+/* line 89, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000389}}
+.pr-85 {
+  padding-right: 85px;
+}
+/* line 90, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000390}}
+.pr-90 {
+  padding-right: 90px;
+}
+/* line 91, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000391}}
+.pr-95 {
+  padding-right: 95px;
+}
+/* line 92, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000392}}
+.pr-100 {
+  padding-right: 100px;
+}
+/* line 93, utils\_paddings.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_paddings\.less}line{font-family:\0000393}}
+.no-paddings {
+  padding: 0;
+}
+/* Floats */
+/* line 2, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000032}}
+.float-right {
+  float: right;
+}
+/* line 3, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000033}}
+.float-left {
+  float: left;
+}
+/* line 4, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000034}}
+.clearfix::after,
+.clearfix::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Text align */
+/* line 7, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000037}}
+.text-center {
+  text-align: center;
+}
+/* line 8, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000038}}
+.text-left {
+  text-align: left;
+}
+/* line 9, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\000039}}
+.text-right {
+  text-align: right;
+}
+/* line 10, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\0000310}}
+.text-justify {
+  text-align: justify;
+}
+/* Font weight */
+/* line 13, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\0000313}}
+.light {
+  font-weight: 300;
+}
+/* line 14, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\0000314}}
+.normal {
+  font-weight: 400;
+}
+/* line 15, utils\_utils.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alex\/Desktop\/Webcademy\/JS\/quiz\/less\/utils\/_utils\.less}line{font-family:\0000315}}
+.strong {
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
